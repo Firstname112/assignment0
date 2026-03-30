@@ -2,8 +2,11 @@
 
 using namespace std;
 
-int main(int argc, char ** argv) {
-    cout << "Hello world!" << endl;
+int main() {
+    string name;
+    cout << "Masukkan nama :" << endl;
+    cin >> name;
+    cout << "Hello " << name << endl;
 
     return 0;
 }
